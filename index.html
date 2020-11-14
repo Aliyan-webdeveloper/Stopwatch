@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <script src="https://kit.fontawesome.com/bb3d29d313.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+      <div class="display">
+        <span id="display">00:00:00:00</span>
+       
+      </div>
+      <div class="buttons">
+        <button class="btn" onclick="start()">
+          <span><i class="fas fa-play"></i></span>
+        </button>
+        <button class="btn" onclick="stop()">
+          <span><i class="fas fa-pause"></i></span>
+        </button>
+        <button class="btn" onclick="reset()">
+          <span><i class="fas fa-undo-alt"></i></span>
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
